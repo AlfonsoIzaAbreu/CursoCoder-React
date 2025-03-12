@@ -1,0 +1,22 @@
+.cart-widget img{
+    width: 30px;
+}
+
+.cart-widget{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    background-color: #858484;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 2rem;
+}
+p{
+    margin: 0;
+    padding: 0.1rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    background-color: #000000;
+}
