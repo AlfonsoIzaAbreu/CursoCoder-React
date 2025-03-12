@@ -1,0 +1,30 @@
+
+.item-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    border: 1px solid #02070c;
+}
+h3{
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1rem;
+}
+.cart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.addToCart{
+    width:20%;
+    background-color: #02070c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
