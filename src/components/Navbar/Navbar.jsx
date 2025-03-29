@@ -1,13 +1,13 @@
 import CartWidgets from "../CartWidgets/CartWidgets";
 import "./Navbar.css";
-
+import logo from "../../assets/logo-patagonia.png";
 
 function Navbar() {
   return (
     <>
       <nav className="nav-bar">
         <div className="logo">
-          <img src="https://i.pinimg.com/736x/a7/22/0d/a7220d4a3fcfe5012b5f93d398daa52e.jpg" alt="LogoPatagonia" />
+          <img src={logo} alt="Logo" />
         </div>
         <ul>
           <li>HOME</li>
