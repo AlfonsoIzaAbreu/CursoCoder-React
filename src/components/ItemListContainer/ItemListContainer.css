@@ -18,12 +18,14 @@
   color: green;
   margin: 0;
 }
-.item-list-container button {
-    margin-top: 1rem;
-    padding: 2px;
-    background-color: gray;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.item-list-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
 }

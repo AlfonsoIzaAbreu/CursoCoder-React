@@ -19,7 +19,6 @@ function ItemCount({ stock, productName }) {
 
   return (
     <>
-      <h3>{productName}</h3>
       <div className="item-count">
         <button onClick={() => operador("-")} className="btn btn-primary">
           -

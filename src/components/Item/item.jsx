@@ -7,7 +7,6 @@ function Item({ producto }) {
       <h2 >{nombre}</h2>
       <hr />
       <p >${precio}</p>
-      <button>Agregar al Carrito</button>
     </div>
   );
 }
