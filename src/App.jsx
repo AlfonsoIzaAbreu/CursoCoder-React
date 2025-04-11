@@ -1,27 +1,26 @@
-import './App.css'
-import CartWidgets from './components/CartWidgets/CartWidgets';
-import Content from './components/content/content';
-import Footer from './components/footer/Footer';
-import ItemCount from './components/ItemCount/ItemCount';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import Navbar from './components/Navbar/Navbar';
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Footer from "./components/footer/Footer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import Navbar from "./components/Navbar/Navbar";
+import ItemDetail from "./components/ItemDetail/ItemDetail";
+import { Route, Routes } from "react-router-dom";
 
 
 function App() {
-  
   return (
-    <>
-    <Navbar/>
-    <Footer/>
-    <Content/>
-    <ItemListContainer/>
     
-    
-    {/* <ItemCount stock= {15} productName= "champion adidas"/>
-    <ItemCount stock= {20} productName= "champion nike"/>  
-    <ItemCount stock= {7} productName= "champion puma"/>  */}
-      </>
-    );
-};
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/Detalles/:id" element={<ItemDetail/>} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+
+  
+  );
+}
 
 export default App;

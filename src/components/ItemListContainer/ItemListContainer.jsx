@@ -5,7 +5,6 @@ import Loader from "../Loader/Loader.jsx";
 import { useState } from "react";
 import { fetchData } from "../../fetchdata.js";
 import ItemCount from "../ItemCount/ItemCount.jsx";
-import ItemDetail from "../ItemDetail/ItemDetail.jsx";
 
 function ItemListContainer() {
   const [loading, setLoading] = useState(true);
@@ -30,7 +29,6 @@ function ItemListContainer() {
           <div key={el.id} className="item">
             <Item producto={el} />
             <ItemCount stock={el.stock} productName={el.nombre} />
-            <ItemDetail />
           </div>
         );
       })}{" "}
