@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: linear-gradient(to bottom, #003400, #f0f0f0); /* Fondo degradado */
+  background: linear-gradient(to bottom, #003400, #f0f0f0); 
   color: white;
   font-family: "Roboto", sans-serif;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
