@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { fetchData } from "../../fetchdata";
 import { Link } from "react-router-dom";
 import "./ItemDetail.css";
-
+import Loader from "../Loader/Loader";
 
 function ItemDetail() {
   const { id } = useParams();
@@ -26,7 +26,7 @@ function ItemDetail() {
   }, [id]);
 
   if (loading) {
-    return <p>Cargando detalles del producto...</p>;
+    <Loader/>;
   }
 
   if (!producto) {
