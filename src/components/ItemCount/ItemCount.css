@@ -11,7 +11,7 @@
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: #007bff;
+  background-color: darkgreen;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -19,7 +19,7 @@
 }
 
 .item-count button:hover {
-  background-color: #0056b3;
+  background-color: rgb(0, 69, 0);
 }
 
 .item-count button:active {

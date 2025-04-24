@@ -7,6 +7,7 @@ function Item({ producto }) {
     <div className="item">
       <h2>{nombre}</h2>
       <hr />
+      <img src={producto.img} alt={producto.nombre} />
       <p>${precio}</p>
       <Link to={`/Detalles/${id}`}>
         <button className="btn btn-secondary my-2">Ver Detalles</button>
