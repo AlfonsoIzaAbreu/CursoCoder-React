@@ -2,13 +2,13 @@
   background: linear-gradient(to top, #003400, transparent); 
   padding: 20px 0;
   text-align: center;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer p {

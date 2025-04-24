@@ -1,8 +1,12 @@
+import bohemian from './assets/bohemian.png';
+import veinticuartosiete from './assets/247.png';
+import amber from './assets/amber.png';
+
 const productos = [
     {
       id: 1,
       nombre: "HONEY",
-      img: "../assets/honey.jpg",
+      img: amber,
       precio: 20,
       stock: 10,
       descripcion:
@@ -11,7 +15,7 @@ const productos = [
     {
       id: 2,
       nombre: "BLONDE",
-      img: "../assets/bolnde.jpg",
+      img: amber,
       precio: 30,
       stock: 5,
       descripcion:
@@ -20,7 +24,7 @@ const productos = [
     {
       id: 3,
       nombre: "IPA",
-      img: "../assets/ipa.jpg",
+      img: amber,
       precio: 50,
       stock: 8,
       descripcion:
@@ -29,7 +33,7 @@ const productos = [
     {
       id: 4,
       nombre: "DOBLE IPA",
-      img: "../assets/doble-ipa.jpg",
+      img: amber,
       precio: 80,
       stock: 2,
       descripcion:
@@ -38,7 +42,7 @@ const productos = [
     {
       id: 5,
       nombre: "AMBER",
-      img: "../assets/amber.jpg",
+      img: amber,
       precio: 15,
       stock: 12,
       descripcion:
@@ -47,7 +51,7 @@ const productos = [
     {
       id: 6,
       nombre: "SCOTISH",
-      img: "../assets/scotish.jpg",
+      img: amber,
       precio: 10,
       stock: 20,
       descripcion:
@@ -56,7 +60,7 @@ const productos = [
     {
       id: 7,
       nombre: "BOHEMIAN",
-      img: "../assets/bohemian.jpg",
+      img: bohemian,
       precio: 25,
       stock: 15,
       descripcion:
@@ -65,7 +69,7 @@ const productos = [
     {
       id: 8,
       nombre: "24.7",
-      img: "../assets/247.jpg",
+      img: veinticuartosiete,
       precio: 35,
       stock: 7,
       descripcion:
@@ -74,8 +78,8 @@ const productos = [
     {
       id: 9,
       nombre: "WESSIE",
-      img: "../assets/wessie.jpg",
-      precio: 5,
+      img: amber,
+      precio: 15,
       stock: 30,
       descripcion:
         "Una cerveza de trigo con un sabor afrutado y especiado, perfecta para los días calurosos.",

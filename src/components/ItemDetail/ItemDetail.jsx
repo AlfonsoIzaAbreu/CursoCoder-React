@@ -26,18 +26,19 @@ function ItemDetail() {
   }, [id]);
 
   if (loading) {
-    <Loader/>;
+    return <Loader/>;
   }
 
   if (!producto) {
     return <p>Producto no encontrado.</p>;
   }
 
-  const { nombre, descripcion, precio, stock } = producto;
+  const { nombre, descripcion, precio, stock, img } = producto;
 
   return (
     <div className="item-detail">
       <h2>{nombre}</h2>
+      <img src={img} alt={nombre} />
       <p>{descripcion}</p>
       <p>Precio: ${precio}</p>
       <p>Stock disponible: {stock}</p>
